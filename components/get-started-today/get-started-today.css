@@ -1,0 +1,22 @@
+.body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.get-started-today {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #1091f4;
+    color: white;
+    text-align: center;
+  }
+  
+  .get-started-today__button {
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background: #364049;
+  }
