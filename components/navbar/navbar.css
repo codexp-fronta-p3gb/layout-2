@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-bottom: 1px solid #B4B9BE;
+}
+
+.navbar-reachme {
+    
+    color: #008AF5;
+    font-weight: bolder;
+}
+
+a.navbar-reachme {
+    text-decoration: none;
+}
+
+a:hover {
+    
+}
+
+.navbar-hamburguer {
+    color: #B4B9BE;
+    padding: 5%;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    
+}
