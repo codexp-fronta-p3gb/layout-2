@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.reasons_social{
+    width: 100%;
+    height: 200px;
+    background: #f0f5f9;
+}
+
+.reasons_engagement{
+    background: #e6edf3;
+}
