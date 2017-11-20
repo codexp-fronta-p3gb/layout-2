@@ -4,12 +4,21 @@
 	box-sizing: border-box;
 }
 
+/* SEÇÃO HERO*/
 .reasons_social{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     height: 200px;
     background: #f0f5f9;
 }
 
+.reasons_title{
+    font-size:20px;
+}
+
 .reasons_engagement{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 200px;
     background: #e6edf3;
 }
