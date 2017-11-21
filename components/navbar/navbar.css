@@ -18,7 +18,6 @@ body {
 }
 
 .navbar-reachme {
-    
     color: #008AF5;
     font-weight: bolder;
 }
@@ -31,15 +30,71 @@ a:hover {
     
 }
 
-.navbar-hamburguer {
+.navbar-menu, .navbar-button {
+    display: none;
+}
+
+.hamburger {
     color: #B4B9BE;
     padding: 5%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {    
+    .navbar-button {
+        display: inline;
+        width: 30%;
+        margin-left: auto;
+    }
+
+    .navbar-button a {        
+        text-decoration: none;
+    }
+
+    .navbar-button-get-started, .navbar-button-login {
+        border: 1px solid #B4B9BE;
+        padding: 2% 4%;
+        border-radius: 25px;        
+    }
+
+    .navbar-button-login {
+        color: #B4B9BE;
+    }
+
+    .navbar-button-get-started {
+        color: #008AF5;
+    }
 
 }
 
 @media screen and (min-width: 992px) {
-    
+    .navbar-hamburger {
+        display: none;
+    }
+
+    .navbar {
+       display: flex;        
+    }
+
+    .navbar-menu {
+        display: inline;
+        width: 65%;
+        margin-left: 10%;
+    }
+
+    .navbar ul {
+        list-style-type: none;        
+    }
+
+    .navbar li {
+        display: inline;
+    }
+
+    .navbar-menu li a {
+        text-decoration: none;
+        padding: 2% 4%;
+    }
+
+    .navbar-button {
+        margin-left: 3%;
+    }
 }
