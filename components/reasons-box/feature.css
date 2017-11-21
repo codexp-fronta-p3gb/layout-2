@@ -10,18 +10,22 @@
     display: flex;
     flex-direction: column;   
     height: 400px;
+    padding: 30px 20px 0 20px;	
     
 }
 
 .feature--lighter-gray{
-	background: #f0f5f9;
-	width:100%;
-	padding: 30px 20px 0 20px;
-	
+	background: #f0f5f9;		
+}
+
+.feature--darker-gray{
+    background: #e6edf3 ;
 }
 .feature__title{
     font-size: 22px;
     padding-bottom: 20px;
+    font-weight: bold;
+
 }
 
 .feature__paragraph{
@@ -33,9 +37,23 @@
    
 }
 
-
 .feature_img_social{
     width: 300px; 
-    padding-top:20px; 
+    padding-top: 30px; 
     
+}
+
+.feature_engagement--icons{
+	display:block;
+    width: 100%;
+    max-width: 280px;
+    margin: -15px auto 8px auto;
+    
+}
+
+.feature_img--engagement{
+    width: 260px;
+    padding-top: 22px;
+    margin-left:-20px;
+
 }
