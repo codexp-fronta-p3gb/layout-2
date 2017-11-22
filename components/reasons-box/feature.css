@@ -14,6 +14,9 @@
     
 }
 
+.feature--reverse{
+    float: right;
+}
 .feature--lighter-gray{
 	background: #f0f5f9;		
 }
@@ -26,9 +29,6 @@
     padding-bottom: 20px;
     font-weight: bold;
 
-}
-.feature--groups{
-    background: url("../../img/feature_group_img--background.jpg")
 }
 
 .feature__paragraph{
@@ -59,4 +59,14 @@
     padding-top: 22px;
     margin-left:-20px;
 
+}
+
+/* Seção features group*/
+
+.feature_img_feature--group{
+    width: 100px;
+}
+
+.feature_img_feature--group_ig{
+    width: 100px;
 }
